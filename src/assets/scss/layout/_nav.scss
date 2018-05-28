@@ -16,7 +16,7 @@
 		@include color-typography(invert);
 		position: absolute;
 		width: _size(inner);
-		max-width: calc(100% - #{_size(element-margin) * 2});
+		max-width: calc(100% - #{_size(element-margin)});
 		padding: 1em;
 		background-color: _palette(invert, bg-alt);
 		border-top-left-radius: _size(border-radius-main);
