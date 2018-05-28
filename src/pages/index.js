@@ -15,7 +15,7 @@ class Index extends React.Component {
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         <Header />
         <div className="side-scroll">
-          <SideNav sticky={this.state.stickyNav} />
+          <SideNav />
           <main id="main">
             <section className="main" />
             <section className="main special" />
