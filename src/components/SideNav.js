@@ -6,28 +6,33 @@ const SideNav = props => (
   <nav id="side-nav">
     <div className="sticky">
       <Scrollspy
-        items={['intro', 'first', 'second', 'cta']}
+        items={[
+          'rest-spread-properties',
+          'asynchronous-iteration',
+          'promise-prototype-finally',
+          'string-prototype-padStart-padEnd',
+        ]}
         currentClassName="is-active"
         offset={-300}
       >
         <li>
-          <Scroll type="id" element="intro">
-            <a href="#">Introduction</a>
+          <Scroll type="id" element="rest-spread-properties">
+            <a href="#">Rest/Spread Properties</a>
           </Scroll>
         </li>
         <li>
-          <Scroll type="id" element="first">
-            <a href="#">First Section</a>
+          <Scroll type="id" element="asynchronous-iteration">
+            <a href="#">Asynchronous Iteration</a>
           </Scroll>
         </li>
         <li>
-          <Scroll type="id" element="second">
-            <a href="#">Second Section</a>
+          <Scroll type="id" element="promise-prototype-finally">
+            <a href="#">Promise.prototype.finally</a>
           </Scroll>
         </li>
         <li>
-          <Scroll type="id" element="cta">
-            <a href="#">Get Started</a>
+          <Scroll type="id" element="string-prototype-padStart-padEnd">
+            <a href="#">String.prototype.padStart/padEnd</a>
           </Scroll>
         </li>
       </Scrollspy>
