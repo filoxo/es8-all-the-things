@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-stellar",
-  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "name": "es8-all-the-things",
+  "description": "A collection of ES8 (and ES7) goodies for next-level devs 🤓💻",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Carlos Filoteo",
   "dependencies": {
     "gatsby": "^1.9.235",
     "gatsby-image": "^1.0.42",
@@ -21,15 +21,17 @@
     "react-scrollspy": "^3.3.5",
     "react-waypoint": "^8.0.1"
   },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-stellar",
+  "homepage": "https://github.com/filoxo/es8-all-the-things",
   "keywords": [
-    "gatsby"
+    "es8",
+    "es7",
+    "cheatsheet"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-stellar.git"
+    "url": "https://github.com/filoxo/es8-all-the-things.git"
   },
   "scripts": {
     "dev": "gatsby develop",
