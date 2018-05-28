@@ -56,12 +56,8 @@ console.log(z); // { a: 3, b: 4 }`}</code>
               </p>
               <pre>
                 <code>{`fetch('/api')
-  .then(result => {
-    // ...
-  })
-  .catch(error => {
-    // ...
-  })
+  .then(result => { /* ... */ })
+  .catch(error => { /* ... */ })
   .finally(() =>{
     // Called after then or catch
   })
@@ -77,7 +73,7 @@ console.log(z); // { a: 3, b: 4 }`}</code>
               </p>
               <pre>
                 <code>{`'42'.padStart(8, '0') // '00000042'
-  '42'.padEnd(8, '0') // '42000000'`}</code>
+'42'.padEnd(8, '0')   // '42000000'`}</code>
               </pre>
             </section>
           </main>
