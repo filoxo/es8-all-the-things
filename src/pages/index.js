@@ -17,8 +17,69 @@ class Index extends React.Component {
         <div className="side-scroll">
           <SideNav />
           <main id="main">
-            <section className="main" />
-            <section className="main special" />
+            <section className="main" id="rest-spread-properties">
+              <h2>Rest/Spread Properties</h2>
+              <div>
+                When destructuring, Rest/Spread Properties allow you to collect
+                the remaining properties of an object into a new object.
+              </div>
+              <pre>
+                <code>{`let { x, y, ...z } = { x: 1, y: 2, a: 3, b: 4 };
+console.log(x); // 1
+console.log(y); // 2
+console.log(z); // { a: 3, b: 4 }`}</code>
+              </pre>
+            </section>
+            <section className="main" id="asynchronous-iteration">
+              <h2>Asynchronous Iteration</h2>
+              <div>
+                With Asynchronous Iteration we get asynchronous iterators and
+                asynchronous iterables. Asynchronous iterators just like regular
+                iterators, except their next() method returns a promise for a{' '}
+                <code>{`{ value, done }`}</code> pair. To consume asynchronous
+                iterables, we can now use the await keyword with{' '}
+                <code>for … of</code> loops.
+              </div>
+              <pre>
+                <code>{`for await (const line of readLines(filePath)) {
+  console.log(line);
+}`}</code>
+              </pre>
+            </section>
+            <section className="main" id="promise-prototype-finally">
+              <h2>Promise.prototype.finally()</h2>
+              <div>
+                Promise.prototype.finally() finalizes the whole promises
+                implementation, allowing you to register a callback to be
+                invoked when a promise is settled (either fulfilled, or
+                rejected).
+              </div>
+              <pre>
+                <code>{`fetch('/api')
+  .then(result => {
+    // ...
+  })
+  .catch(error => {
+    // ...
+  })
+  .finally(() =>{
+    // Called after then or catch
+  })
+`}</code>
+              </pre>
+            </section>
+            <section className="main" id="string-prototype-padStart-padEnd">
+              <h2>String.prototype.padStart/padEnd</h2>
+              <div>
+                <code>padStart</code> and <code>padEnd</code> allow us to pad a
+                given string with any text of our choosing to ensure a string
+                matches a given length.
+              </div>
+              <pre>
+                <code>{`'42'.padStart(8, '0') // '00000042'
+  '42'.padEnd(8, '0') // '42000000'`}</code>
+              </pre>
+            </section>
           </main>
         </div>
       </div>
