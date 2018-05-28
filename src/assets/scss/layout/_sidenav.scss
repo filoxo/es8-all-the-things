@@ -37,11 +37,10 @@
           ('font-size #{_duration(transition)} ease')
         );
         display: inline-block;
-        height: 2.25em;
-        line-height: 2.25em;
-        padding: 0 1rem;
+        line-height: 1.5;
+        padding: 0 0.25rem;
         border: 0;
-        border-radius: _size(border-radius);
+        border-radius: _size(border-radius) / 4;
         box-shadow: inset 0 0 0 1px transparent;
 
         &:hover {
