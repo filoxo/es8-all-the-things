@@ -13,7 +13,6 @@ const SideNav = props => (
           'string-prototype-padStart-padEnd',
         ]}
         currentClassName="is-active"
-        offset={-300}
       >
         <li>
           <Scroll type="id" element="rest-spread-properties">
