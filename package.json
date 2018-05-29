@@ -34,7 +34,7 @@
     "url": "https://github.com/filoxo/es8-all-the-things.git"
   },
   "scripts": {
-    "dev": "gatsby develop",
+    "start": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "gatsby develop",
     "build": "gatsby build",
