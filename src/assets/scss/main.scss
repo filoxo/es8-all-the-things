@@ -2,7 +2,6 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @import 'libs/skel';
-@import '../css/font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 
 /*
@@ -54,10 +53,10 @@
 @import 'base/typography';
 // Component.
 @import 'components/box';
-
 @import 'components/button';
 @import 'components/form';
 @import 'components/icon';
+
 @import 'components/image';
 @import 'components/list';
 @import 'components/section';

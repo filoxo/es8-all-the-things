@@ -6,7 +6,6 @@ import Waypoint from 'react-waypoint'
 
 import Header from '../components/Header'
 import SideNav from '../components/SideNav'
-import pic01 from '../assets/images/pic01.jpg'
 
 class Index extends React.Component {
   render() {
