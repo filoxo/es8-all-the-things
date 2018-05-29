@@ -118,7 +118,7 @@ Object.values({ 80: 'eighty', 0: 1, 1: 'yes' }) // [1, 'yes', 'eighty']`}</code>
               <h2>Exponentiation</h2>
               <p>
                 The exponentiation operator is a shorthand method for the{' '}
-                <code>Math.pow</code> function, allowing for a more succinctly
+                <code>Math.pow</code> function, allowing for a more succinct
                 infix notation.
               </p>
               <pre>
